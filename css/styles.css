@@ -1,0 +1,89 @@
+#bot{
+	margin-left: -25px;
+}
+
+.jumbotron{
+	display:none;
+	background-color: #424242;
+	font-family:comic;
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 0.5em #D8D8D8, 0 0 0.5em #D8D8D8, 0 0 0.5em #D8D8D8;
+}
+
+.recuadro-botones{
+	background-color: #312F2F;
+}
+
+.titulos
+{
+	text-align: center;
+}
+body{
+	padding: 1%;
+	background: url("../images/fondo2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.row{
+	font-family: verdana;
+	margin-left: 10px;
+}
+
+.btn{
+	font-family: fantasy;
+	font-size: 120%;
+	background: #312F2F;
+	color:gray;
+	margin-left: 65px;
+}
+
+.results{
+	font-family: fantasy;
+	cursor: url('http://clker.com/cliparts/0/1/e/4/1321967920384991494clave_de_sol_by_k4tyush4.jpg')auto;
+	font-size: 110%;
+	color: black;
+	text-shadow: 0 0 0.5em;
+}
+#barra{
+	background: #312F2F;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 15px;
+	text-shadow: 0 0 0.5em #D8D8D8, 0 0 0.5em #D8D8D8, 0 0 0.5em #D8D8D8;
+}
+
+.fondo{
+	height: 22%;
+	background: url("http://2.bp.blogspot.com/-0GhXzgNLYN4/T7iHnxH58yI/AAAAAAAAHXo/hTMXbhj-Jyo/s1600/gifs_gis_screensaver__5_.gif");
+	max-width: 100%;
+}
+
+hr {border: 0; height: 0; border-top: 4px double white; text-align:center;}
+hr:after {position: relative; top: -22px; content:"\25cf\25cf\25cf"; font-size: 34px;line-height: 34px; color: black;}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+#top { text-decoration: none; padding: 1px 3px; display: inline-block; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -ms-transition: all 1s linear; -o-transition: all 1.4s linear; transition: all 1s linear; }
+#top:hover { background: gray; color: black; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); -webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.5,1.5); -ms-transform: scale(1.5,1.5); -o-transform: scale(1.5,1.5); transform: scale(1.5,1.5); -webkit-transition: all .8s linear; -moz-transition: all .8s linear; -ms-transition: all .8s linear; -o-transition: all .8s linear; transition: all .8s linear; }
+
+#topa { text-decoration: none; padding: 1px 3px; display: inline-block; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -ms-transition: all 1s linear; -o-transition: all 1.4s linear; transition: all 1s linear; }
+#topa:hover { background: gray; color: black; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); -webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.5,1.5); -ms-transform: scale(1.5,1.5); -o-transform: scale(1.5,1.5); transform: scale(1.5,1.5); -webkit-transition: all .8s linear; -moz-transition: all .8s linear; -ms-transition: all .8s linear; -o-transition: all .8s linear; transition: all .8s linear; }
+
+#topz { text-decoration: none; padding: 1px 3px; display: inline-block; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -ms-transition: all 1s linear; -o-transition: all 1.4s linear; transition: all 1s linear; }
+#topz:hover { background: gray; color: black; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); -webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.5,1.5); -ms-transform: scale(1.5,1.5); -o-transform: scale(1.5,1.5); transform: scale(1.5,1.5); -webkit-transition: all .8s linear; -moz-transition: all .8s linear; -ms-transition: all .8s linear; -o-transition: all .8s linear; transition: all .8s linear; }
+
+#repro { text-decoration: none; padding: 1px 3px; display: inline-block; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -ms-transition: all 1s linear; -o-transition: all 1.4s linear; transition: all 1s linear; }
+#repro:hover { background: gray; color: black; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); -webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.5,1.5); -ms-transform: scale(1.5,1.5); -o-transform: scale(1.5,1.5); transform: scale(1.5,1.5); -webkit-transition: all .8s linear; -moz-transition: all .8s linear; -ms-transition: all .8s linear; -o-transition: all .8s linear; transition: all .8s linear; }
+
+#duracion { text-decoration: none; padding: 1px 3px; display: inline-block; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -ms-transition: all 1s linear; -o-transition: all 1.4s linear; transition: all 1s linear; }
+#duracion:hover { background: gray; color: black; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); -webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.5,1.5); -ms-transform: scale(1.5,1.5); -o-transform: scale(1.5,1.5); transform: scale(1.5,1.5); -webkit-transition: all .8s linear; -moz-transition: all .8s linear; -ms-transition: all .8s linear; -o-transition: all .8s linear; transition: all .8s linear; }
+
+.results { text-decoration: none; }
+.results:hover { text-shadow: 2px 2px 2px #aaa; }

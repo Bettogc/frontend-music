@@ -1,0 +1,17 @@
+$(document).ready(function(){
+jQuery(document).ready(function($) { 
+$.ajax({ 
+url : "http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=9d566e78af070872cfff371252e2ead0&format=json", 
+dataType : "jsonp", 
+success : function(parsed_json) { 
+for(var i = 0; i<50; i++){
+canciones.push(parsed_json['tracks']['track'][i]['name'])
+duracion.push(parsed_json['tracks']['track'][i]['duration'])
+du.push(parsed_json['tracks']['track'][i]['playcount'])
+escuchado.push(parsed_json['tracks']['track'][i]['listeners'])
+artista.push(parsed_json['tracks']['track'][i]['artist']['name'])
+$(".results").append("<div class ='row'>"+
+"<div class='col-md-2'> "+canciones[i]+"</div>"+
+"<div class='col-md-2'> "+du[i]+"</div>" +
+"<div class='col-md-2'> "+duracion[i]+"</div>" +
+"<div class='col-md-2'>"+escuchado[i]+"</div>"+
